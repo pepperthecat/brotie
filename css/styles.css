@@ -1,0 +1,105 @@
+body {
+    height: 100%;
+    background-color: gray;
+    background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.3) 5px, hsla(197, 62%, 11%, 0.3) 10px,                  
+      hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.3) 35px, hsla(5, 53%, 63%, 0.3) 40px,
+      hsla(197, 62%, 11%, 0.3) 40px, hsla(197, 62%, 11%, 0.3) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,                
+      hsla(5, 53%, 63%, 0.3) 60px, hsla(5, 53%, 63%, 0.3) 70px, hsla(35, 91%, 65%, 0.3) 70px, hsla(35, 91%, 65%, 0.3) 80px,
+      hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.3) 90px, hsla(5, 53%, 63%, 0.3) 110px,
+      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.3) 120px, hsla(197, 62%, 11%, 0.3) 140px       
+      ),
+    repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.3) 5px, hsla(197, 62%, 11%, 0.3) 10px, 
+      hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.3) 35px, hsla(5, 53%, 63%, 0.3) 40px,
+      hsla(197, 62%, 11%, 0.3) 40px, hsla(197, 62%, 11%, 0.3) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,                
+      hsla(5, 53%, 63%, 0.3) 60px, hsla(5, 53%, 63%, 0.3) 70px, hsla(35, 91%, 65%, 0.3) 70px, hsla(35, 91%, 65%, 0.3) 80px,
+      hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.3) 90px, hsla(5, 53%, 63%, 0.3) 110px,
+      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.3) 140px, hsla(197, 62%, 11%, 0.3) 160px       
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+header p {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    font-size: 1.4em;
+    font-weight: 200;
+}
+
+form p {
+    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-weight: 100;
+}
+
+a {
+    text-decoration: underline;
+    color: #000;
+}
+
+a:hover {
+    color: lightgoldenrodyellow;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+h1, h3, h5 {
+    font-weight: 100;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 30px;
+    padding-left: 30px;
+}
+
+h3 {
+    letter-spacing: 10px;
+    font-style: italic;
+}
+
+hr {
+    width: 50%;
+}
+
+input {
+    margin: 0 auto 3em auto;
+    width: 220px;
+    height: 30px;
+    padding-left: 5px;
+    border: 0;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    font-size: 2em;
+    letter-spacing: 8px;
+    color: #000;
+    background-color: lightgoldenrodyellow;
+}
+
+footer {
+    margin-top: 4em;
+}
+
+.container {
+    position: relative;
+    padding: 2em;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    background: salmon;
+}
