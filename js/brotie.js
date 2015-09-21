@@ -17,7 +17,8 @@
         'giveMeProps': 'giveMeProps',
         'hasRespect': 'hasRespect',
         'iDontAlways': 'iDontAlways',
-        'braceYourself': 'braceYourself'
+        'braceYourself': 'braceYourself',
+        'makeItHappen': 'makeItHappen'
     };
 
     (function nameInput () {
