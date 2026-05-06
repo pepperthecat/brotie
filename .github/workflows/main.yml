@@ -3,7 +3,7 @@ name: Background Task Automation
 on:
   workflow_dispatch: # للتشغيل اليدوي
   schedule:
-    - cron: '0 0,8,16 * * *' # الجدولة للعمل 3 مرات يوميا (الساعة 00:00، 08:00، 16:00 بتوقيت UTC)
+    - cron: '0 0,5,10,15,20 * * *' # الجدولة للعمل 5 مرات يوميا (الساعات 00:00، 05:00، 10:00، 15:00، 20:00 بتوقيت UTC)
 
 jobs:
   execute-nodes:
